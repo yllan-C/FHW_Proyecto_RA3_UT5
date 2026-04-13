@@ -1,0 +1,11 @@
+# Tabla comparativa de ISOs
+
+
+| **ISO**                 | **Versión** | **Arquitectura** | **RAM mínima** | **Disco mínimo** | **Tamaño ISO** | **Ventajas**                                                       | **Inconvenientes**                                              | **Decisión**         |
+| ------------------------- | -------------- | ------------------ | ----------------- | ------------------- | ----------------- | -------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------- |
+| **ISO 01 (AntiX)**      | 26           | x64              | 512 MB          | 7.0 GB            | 2.1 GB          | Muy ligero, instalación sencilla y suite ofimática preinstalada. | Incertidumbre sobre la fluidez según la frecuencia de la RAM.  | **Alternativa**       |
+| **ISO 02 (MX Linux)**   | 25.1         | x64              | 1 GB            | 8.5 GB            | 2.7 GB          | Basado en AntiX pero más orientado al usuario final.              | Posibles conflictos de estabilidad con mezclas de módulos RAM. | **Opción principal** |
+| **ISO 03 (Linux Mint)** | 21.3         | x64              | 2 GB            | 20 GB             | 2.8 GB          | Muy fácil de usar, interfaz familiar tipo Windows.                | Es la distribución que más recursos de hardware demanda.      | **Respaldo**          |
+
+## Resumen de la comparación
+MX es el sistema de requisitos medios entre los otros 2 sistemas operativos por eso lo recomiendo como principal si no funciona o va muy lento se pasaria a Antix que es algo asi como una version light de MX. Si por lo que sea no funcionara ninguna de las dos, me gustaria buscar si hay modulos libres de RAM para probar con mint a instalarlo porque aunque deberia ir bien en el ordenador despues de haberlo probado en maquinas virtuales no se puede limitar la frecuencia de la memoria por lo que estaria bien intentar buscar los modulos originales o que minimo compartan la misma capacidad y frecuencia.

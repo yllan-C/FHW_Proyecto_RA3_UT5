@@ -1,0 +1,18 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Python / utilidades
+__pycache__/
+*.pyc
+
+# Exportaciones
+*.pdf
+*.docx
+
+# Imágenes temporales
+*.tmp
